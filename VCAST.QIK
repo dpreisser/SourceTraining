@@ -1,0 +1,73 @@
+--  QuickParse File Version: EDG_4_9  --
+HOME_DIRECTORY C:\VCAST\TrainingRepo\SourceFiles
+BEGIN_RECORD advanced_stubbing.c
+CHECKSUM  3967718560
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   use_const_global
+   use_function_pointer
+   use_malloc
+CALLED_OBJECTS
+CALLED_OBJECTS_FOR_GLOBAL_DATA
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+   g_int
+GLOBAL_OBJECTS_DEFINED
+CONSTRUCTORS_NEEDED
+ALL_TESTABLE_CLASSES
+DEFAULT_TESTABLE_CLASSES
+INCLUDES
+   C:\vcast\6.3g\mingw\include\stdlib.h
+   C:\vcast\6.3g\mingw\include\string.h
+END_RECORD advanced_stubbing.c
+BEGIN_RECORD database.c
+CHECKSUM 4001337686
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   Get_Table_Record
+   Update_Table_Record
+   log_tax_receipts
+CALLED_OBJECTS
+CALLED_OBJECTS_FOR_GLOBAL_DATA
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+   Table_Data
+CONSTRUCTORS_NEEDED
+ALL_TESTABLE_CLASSES
+DEFAULT_TESTABLE_CLASSES
+INCLUDES
+   C:\VCAST\TrainingRepo\SourceFiles\ctypes.h
+   C:\VCAST\TrainingRepo\SourceFiles\database.h
+END_RECORD database.c
+BEGIN_RECORD manager.c
+CHECKSUM 1246587444
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   Add_Included_Dessert
+   Add_Party_To_Waiting_List
+   Add_Tax_Tip
+   Clear_Table
+   Get_Check_Total
+   Get_Next_Party_To_Be_Seated
+   Place_Order
+CALLED_OBJECTS
+   Get_Table_Record
+   Update_Table_Record
+   log_tax_receipts
+CALLED_OBJECTS_FOR_GLOBAL_DATA
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+   NULL_ORDER
+CONSTRUCTORS_NEEDED
+ALL_TESTABLE_CLASSES
+DEFAULT_TESTABLE_CLASSES
+INCLUDES
+   C:\VCAST\TrainingRepo\SourceFiles\ctypes.h
+   C:\VCAST\TrainingRepo\SourceFiles\database.h
+   C:\vcast\6.3g\mingw\include\stdio.h
+END_RECORD manager.c
